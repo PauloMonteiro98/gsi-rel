@@ -1,0 +1,23 @@
+site_name: Relatório GSI
+theme:
+  name: 'readthedocs'
+  language: 'pt'
+
+
+plugins:
+  - search
+  # - mermaid2
+  - awesome-pages
+
+
+nav:
+
+  - Samba: 
+      # - Classes: modelagem/classes.md
+      - Instalação: samba/instalacao.md
+  - Dns: 
+      # - Classes: modelagem/classes.md
+      - Registros: dns/registros-a.md
+  - Ldap: 
+      # - Classes: modelagem/classes.md
+      - DN: ldap/dn-ifrn.md
