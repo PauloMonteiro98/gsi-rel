@@ -1,3 +1,8 @@
+!!! note "Observações"
+
+    - Documento sem título (**H1**)
+    - Ausência de imagens que comprovasse a execução dos comandos na máquina virtual
+
 O `samba-tool` é utilizado para gerenciar vários aspectos de um servidor Samba, incluindo registros DNS. O comando `samba-tool dns` permite manipular registros DNS dentro de uma zona gerenciada pelo Samba como controlador de domínio (AD).
 
 Os registros do tipo A associam um nome de host a um endereço IP IPv4. No exemplo a seguir, vamos simular a criação de 4 registros de DNS do tipo A, com nomes de cidades mineiras pouco conhecidas, e listar todos os registros da zona.
