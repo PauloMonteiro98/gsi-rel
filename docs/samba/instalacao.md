@@ -1,5 +1,11 @@
 # Configurando o Samba como Controlador de Domínio no Alpine Linux
 
+!!! note "Observações"
+
+    - Não existe o pacote `krbr-client` nos repositórios *main* e *community* do Alpine Linux 3.20 (Veja o arquivo `/etc/apk/repositories`);
+    - A documentação deveria ser aplicada a um dos domínios que a dupla configurou. Por exemplo, o domínio deveria ser `<estado>.lab`;
+    - Não houve a configuração do nome da máquina totalmente qualificado (FQDN), no formato: `<capital>.<estado>.lab`.
+
 Este guia cobre a instalação e configuração do Samba para atuar como um controlador de domínio do Active Directory no Alpine Linux.
 
 ## Requisitos
